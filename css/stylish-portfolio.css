@@ -10,6 +10,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  font-size: 65%;
 }
 
 .vert-text h1 {
@@ -88,6 +89,9 @@ body {
   right: 0;
   position: fixed;
   z-index: 1;
+}
+#cierre{
+  margin-right: 5px;
 }
 
 #sidebar-wrapper.active {
@@ -219,7 +223,7 @@ i.service-icon {
 
 footer {
   padding: 100px 0;
-  
+
 }
 
 .top-scroll {
