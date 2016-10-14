@@ -18,6 +18,7 @@ body {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+  background-image:  url(../img/logo-jardisan.svg);
 }
 
 /* Side Menu */
