@@ -88,10 +88,10 @@ body {
   top: 0;
   right: 0;
   position: fixed;
-  z-index: 0;
+  z-index: 1;
 }
 #cierre{
-  margin-right: 5px;
+  margin-right: -5px;
 }
 
 #sidebar-wrapper.active {
