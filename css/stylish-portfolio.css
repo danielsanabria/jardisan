@@ -16,11 +16,12 @@ body {
 .vert-text h1 {
   padding: 0;
   margin: 0;
-  font-size: 4.5em;
+  font-size: 10em;
   font-weight: 700;
-  background-image:  url(../img/logo-jardisan.svg);
 }
-
+.fa fa-times{
+  margin-left: 5px;
+}
 /* Side Menu */
 
 #sidebar-wrapper {
