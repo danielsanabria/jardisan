@@ -5,6 +5,7 @@
 
 // Color system
 
+
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -75,7 +76,10 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$theme-colors: () !default;
+$theme-colors: (
+  "primary": #789048,
+  "danger": #ff4136
+);
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
   (

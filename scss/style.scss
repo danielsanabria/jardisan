@@ -9,6 +9,10 @@ $black: #000000;
 
 $primary: #789048;
 
+$theme-colors: (
+  "primary": #789048,
+  "danger": #ff4136
+);
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
