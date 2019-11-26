@@ -81,19 +81,7 @@ $theme-colors: (
   "danger": #ff4136
 );
 // stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "success":    $success,
-    "info":       $info,
-    "warning":    $warning,
-    "danger":     $danger,
-    "light":      $light,
-    "dark":       $dark
-  ),
-  $theme-colors
-);
+
 
 // Set a specific jump point for requesting color jumps
 $theme-color-interval:      8% !default;
